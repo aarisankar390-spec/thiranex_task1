@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aari Sankar's accessible personal portfolio showcasing web development projects, skills, and contact information.">
+  <meta name="author" content="Aari Sankar">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://example.com/">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Aari Sankar | Web Developer Portfolio</title>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Aari Sankar home">Aari Sankar</a>
+    <nav aria-label="Primary navigation">
+      <ul class="nav-list">
+        <li><a aria-current="page" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">WEB DEVELOPMENT • ACCESSIBILITY • SEO</p>
+        <h1 id="hero-title">Building useful, accessible web experiences.</h1>
+        <p class="lead">I’m Aari Sankar, a web development learner focused on creating clean, responsive and user-friendly websites.</p>
+        <div class="actions">
+          <a class="button" href="projects.html">View my projects</a>
+          <a class="button button-secondary" href="contact.html">Contact me</a>
+        </div>
+      </div>
+      <aside class="profile-card" aria-label="Profile summary">
+        <div class="avatar" aria-hidden="true">AS</div>
+        <h2>Aari Sankar</h2>
+        <p>Web Developer</p>
+        <ul>
+          <li>Semantic HTML5</li>
+          <li>Responsive CSS</li>
+          <li>Accessible interfaces</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="focus-title">
+    <div class="container">
+      <h2 id="focus-title">What I focus on</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Accessible HTML</h3>
+          <p>Semantic elements, keyboard navigation, meaningful labels and screen-reader-friendly content.</p>
+        </article>
+        <article class="card">
+          <h3>Responsive Design</h3>
+          <p>Layouts that remain clear and usable across phones, tablets and desktop screens.</p>
+        </article>
+        <article class="card">
+          <h3>SEO Foundations</h3>
+          <p>Descriptive metadata, headings, links and structured page content that search engines can understand.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year">2026</span> Aari Sankar. All rights reserved.</p>
+    <a href="contact.html">Get in touch</a>
+  </div>
+</footer>
+<script src="assets/script.js" defer></script>
+</body>
+</html>
